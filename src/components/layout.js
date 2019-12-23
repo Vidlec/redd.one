@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './PageHeader'
 import Footer from './PageFooter'
 import './layout.css'
+import './dark-theme.css'
 import './custom.css'
 import Container from './Container'
 

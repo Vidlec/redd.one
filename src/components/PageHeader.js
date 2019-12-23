@@ -9,8 +9,8 @@ import Logo from '../images/logo.svg'
 const HeaderContainer = styled.header`
   position: sticky;
   top: 0;
-  background-color: #fff;
-  border-bottom: 1px solid #eaeaea;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--color-gray-dim);
   font-size: 0.85rem;
   z-index: 10;
 `

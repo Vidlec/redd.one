@@ -7,7 +7,7 @@ import Container from './Container'
 import Text from './Text'
 
 const StyledBox = styled(Box)`
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid var(--color-gray-dim);
   color: #676767;
   font-size: 0.85rem;
 `

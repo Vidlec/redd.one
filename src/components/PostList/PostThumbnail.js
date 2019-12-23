@@ -30,7 +30,7 @@ const StyledThumbnail = styled.div`
         width: 14px;
         background-color: hsl(1, 65%, 50%);
         box-sizing: content-box;
-        border: 5px solid #fff;
+        border: 5px solid var(--background-color);
         border-radius: 50%;
         animation: beat 3.5s infinite;
       }
