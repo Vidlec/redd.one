@@ -34,7 +34,7 @@ const Share = ({ title, url, text }) => {
       <Text as="p">{text || defaultShareText}</Text>
       <Composition
         templateCols="repeat(3, 48px)"
-        gutter={1.5}
+        gutter={1}
         alignItems="center"
         justifyContent="center"
         marginTop={1}
