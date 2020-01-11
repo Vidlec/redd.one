@@ -71,8 +71,8 @@ function BlogPost(props) {
             as="header"
             flexDirection="column"
             alignItems="center"
-            marginBottom={2.5}
-            marginBottomMd={3.5}
+            marginBottom={3}
+            marginBottomMd={4}
           >
             <PostTitle>{frontmatter.title}</PostTitle>
             <Box
@@ -83,6 +83,7 @@ function BlogPost(props) {
               justifyContent="center"
               justifyContentXsDown="start"
               width="100%"
+              marginTopSmDown={-1}
             >
               <Box flex>
                 <Text primary>{category}</Text>
@@ -100,9 +101,12 @@ function BlogPost(props) {
             </Box>
           </Box>
 
-          <PostImage
+          <Box
+            as={PostImage}
             fluid={frontmatter.image.childImageSharp.fluid}
             alt={frontmatter.title}
+            marginBottom={3}
+            marginBottomMd={4}
           />
 
           {/* Post content */}
